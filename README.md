@@ -16,7 +16,7 @@ Este repositório funciona como um **portfólio centralizado**, onde você pode 
 
 
 ## 🌟 Projetos em destaque
-- **[Login-Page]([link](https://github.com/vinistn-ofc/projects/tree/main/login-page)** → Pagina de Login Profissonal.
+- **[Login-Page]([https://github.com/vinistn-ofc/projects/tree/main/login-page])** → Pagina de Login Profissonal.
 
 
 ---
@@ -32,8 +32,8 @@ Este repositório é também um registro da minha evolução:
 
 ## 📬 Contato
 Se quiser trocar ideias ou colaborar em algum projeto, entre em contato:
-- **GitHub**: [seu-usuario](https://github.com/vinistn-ofc)
-- **LinkedIn**: [seu-linkedin](https://linkedin.com/in/vinistn-ofc)
+- **GitHub**: [vinistn-ofc](https://github.com/vinistn-ofc)
+- **LinkedIn**: [Vinicius Santana](https://linkedin.com/in/vinistn-ofc)
 - **Email**: vinistn.win@outlook.com
 
 ---

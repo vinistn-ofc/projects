@@ -1,1 +1,41 @@
-# projects
+# 📂 Repositório de Projetos
+
+Bem-vindo(a) ao meu repositório de projetos!  
+Este espaço reúne todos os trabalhos que desenvolvi ao longo da minha jornada na programação — desde projetos profissionais até exercícios práticos aprendidos e criados em cursos e estudos pessoais.
+
+---
+
+## 🎯 Objetivo
+Este repositório funciona como um **portfólio centralizado**, onde você pode acompanhar:
+- Minha evolução como desenvolvedor
+- Projetos práticos realizados em cursos e treinamentos
+- Projetos profissionais aplicados em contextos reais
+- Projetos pessoais e experimentais que refletem minha criatividade
+  
+---
+
+
+## 🌟 Projetos em destaque
+- **[Login-Page]([link](https://github.com/vinistn-ofc/projects/tree/main/login-page)** → Pagina de Login Profissonal.
+
+
+---
+
+## 📈 Minha jornada
+Este repositório é também um registro da minha evolução:  
+- 🚀 Primeiros passos em programação  
+- 📚 Estudos e cursos  
+- 💼 Experiência profissional  
+- 💡 Projetos pessoais e experimentais  
+
+---
+
+## 📬 Contato
+Se quiser trocar ideias ou colaborar em algum projeto, entre em contato:
+- **GitHub**: [seu-usuario](https://github.com/vinistn-ofc)
+- **LinkedIn**: [seu-linkedin](https://linkedin.com/in/vinistn-ofc)
+- **Email**: vinistn.win@outlook.com
+
+---
+
+⭐ Se algum projeto te inspirar ou ajudar, não esqueça de deixar uma estrela!

@@ -1,0 +1,170 @@
+/* ==============================
+   RESET BÁSICO E BOX-SIZING
+   ============================== */
+
+/* Remove margens e padding padrão e ativa box-sizing border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==============================
+   BODY — CONFIGURAÇÕES GERAIS
+   ============================== */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  width: 100%;
+  background-image: url(/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  padding-top: 65px; /* Espaço para o header fixo */
+}
+
+/* ==============================
+   HEADER — TOPO FIXO
+   ============================== */
+header {
+  flex-wrap: wrap;
+  display: flex; /* Ativa flexbox */
+  justify-content: space-between; /* Logo à esquerda, menu à direita */
+  align-items: center; /* Centraliza itens verticalmente */
+  padding: 10px 20px;
+  height: 65px; /* Altura do header */
+  background-color: rgb(255, 243, 202);
+  position: fixed; /* Header fixo no topo */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; /* Fica acima de outros elementos */
+}
+
+/* LOGO */
+.logo a {
+  text-decoration: none; /* Remove sublinhado */
+  color: rgb(255, 60, 0); /* Cor do texto */
+  font-size: 24px;
+  font-weight: 700; /* Negrito forte */
+}
+
+/* NAV LINKS */
+.nav-links ul {
+  display: flex; /* Deixa os <li> lado a lado */
+  flex-wrap: wrap;
+  gap: 20px; /* Espaço entre os links */
+  list-style: none; /* Remove bullets */
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove sublinhado */
+  color: rgb(255, 60, 0);
+  font-size: 18px;
+  transition: 0.3s; /* Suaviza hover */
+}
+
+.nav-links a:hover {
+  color: rgb(100, 90, 160); /* Mudança de cor ao passar o mouse */
+}
+
+/* ==============================
+   CONTAINER — CENTRALIZA O FORMULÁRIO
+   ============================== */
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontal */
+  align-items: center; /* Centraliza vertical */
+  flex: 1; /* Ocupa espaço restante da tela */
+  width: 100%;
+}
+
+/* ==============================
+   FORMULÁRIO — ESTILO MODERNO
+   ============================== */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* Espaço entre elementos internos */
+  background: rgba(255, 255, 255, 0.85); /* Fundo semi-transparente */
+  padding: 25px 30px;
+  width: 350px;
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.25); /* Sombra suave */
+  backdrop-filter: blur(5px); /* Efeito blur */
+  animation: fadeIn 0.6s ease; /* Animação suave de entrada */
+}
+
+/* Título do formulário */
+.form h2 {
+  text-align: center;
+  color: rgb(255, 60, 0);
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+/* Agrupamento de inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Labels */
+.input-group label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs */
+.form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+
+/* Efeito de foco nos inputs */
+.form input:focus {
+  border-color: rgb(255, 60, 0);
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 60, 0, 0.4);
+}
+
+/* Botão */
+.form button {
+  padding: 12px;
+  background-color: rgb(255, 60, 0);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+/* Hover do botão */
+.form button:hover {
+  background-color: rgb(100, 90, 160);
+  transform: scale(1.03);
+}
+
+/* ==============================
+   ANIMAÇÃO SUAVE DE ENTRADA
+   ============================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

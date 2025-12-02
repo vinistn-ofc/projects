@@ -31,5 +31,5 @@ Este repositório é também um registro da minha evolução:
 ## 📬 Contato
 Se quiser trocar ideias ou colaborar em algum projeto, entre em contato:
 - **GitHub**: [vinistn-ofc](https://github.com/vinistn-ofc)
-- **LinkedIn**: [Vinicius Santana](https://linkedin.com/in/vinistn-ofc)
+- **LinkedIn**: [Vinicius Santana](https://linkedin.com/in/vinistn)
 - **Email**: vinistn.win@gmail.com
